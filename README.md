@@ -25,3 +25,4 @@ The APK output is:
 - Use Android's permission prompts for camera and other sensitive capabilities.
 - Tor routing must be implemented with a properly configured proxy/VPN approach and fail-closed behavior; a UI toggle alone does not provide anonymity.
 - UI automation and network testing must be limited to apps, devices and systems you are authorized to control.
+# HOLO-AI-v4
