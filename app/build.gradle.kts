@@ -30,11 +30,17 @@ android {
 
 dependencies {
     implementation(platform("androidx.compose:compose-bom:2024.12.01"))
+
     implementation("androidx.activity:activity-compose:1.10.0")
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
     implementation("androidx.compose.foundation:foundation")
     implementation("androidx.compose.material:material-icons-extended")
+
+    // Google Filament 3D engine
+    implementation("com.google.android.filament:filament-android:1.77.3")
+    implementation("com.google.android.filament:gltfio-android:1.77.3")
+
     debugImplementation("androidx.compose.ui:ui-tooling")
 }
