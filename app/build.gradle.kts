@@ -39,8 +39,8 @@ dependencies {
     implementation("androidx.compose.material:material-icons-extended")
 
     // Google Filament 3D engine
-    implementation("com.google.android.filament:filament-android:1.77.3")
-    implementation("com.google.android.filament:gltfio-android:1.77.3")
+    implementation("com.google.android.filament:filament-android:1.70.1")
+    implementation("com.google.android.filament:gltfio-android:1.70.1")
 
     debugImplementation("androidx.compose.ui:ui-tooling")
 }
